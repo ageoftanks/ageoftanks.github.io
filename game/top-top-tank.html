@@ -1,15 +1,13 @@
-<!-- File: game/age-of-tanks-warriors-td-war.html (or replace your current file) -->
+<!-- File: game/top-top-tank.html -->
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Age of Tanks Warriors: TD War - Play Online | Age of Tanks</title>
-
-  <meta name="description" content="Play Age of Tanks Warriors: TD War online for free. A 1v1 strategy tower defense battle game where you evolve from the Stone Age to modern warfare. Upgrade your army and dominate the battlefield." />
-  <meta name="keywords" content="Age of Tanks Warriors TD War, tower defense game, strategy battle game, 1v1 strategy game, free browser game, tank game" />
+  <title>Top Top Tank - Play Online | Age of Tanks</title>
+  <meta name="description" content="Play Top Top Tank online. Upgrade your tank and super weapons, survive the battlefield, and eliminate the enemy tank army." />
   <meta name="robots" content="index,follow" />
-  <link rel="canonical" href="https://ageoftanks.github.io/" />
+  <link rel="canonical" href="https://ageoftanks.github.io/game/top-top-tank.html" />
 
   <style>
     :root{
@@ -147,6 +145,7 @@
       grid-template-columns: 1.2fr .8fr;
       gap: 14px;
     }
+
     @media (max-width: 860px){
       .content{ grid-template-columns: 1fr; }
     }
@@ -156,23 +155,9 @@
       font-size: 18px;
       line-height: 1.25;
     }
-    h3{
-      margin: 12px 0 6px;
-      font-size: 15px;
-      line-height: 1.25;
-      color: var(--text);
-      opacity: .95;
-    }
 
     p{ margin: 0 0 10px; color: var(--text); }
     .muted{ color: var(--muted); }
-
-    ul{
-      margin: 0;
-      padding-left: 18px;
-      color: var(--text);
-    }
-    li{ margin: 8px 0; }
 
     .kbd{
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -185,18 +170,12 @@
       white-space: nowrap;
     }
 
-    .pill{
-      display:inline-flex;
-      align-items:center;
-      gap: 8px;
-      padding: 6px 10px;
-      border-radius: 999px;
-      border: 1px solid var(--border);
-      background: rgba(255,255,255,.06);
-      color: var(--muted);
-      font-size: 13px;
-      margin: 6px 8px 0 0;
+    ul{
+      margin: 0;
+      padding-left: 18px;
+      color: var(--text);
     }
+    li{ margin: 8px 0; }
 
     .note{
       padding: 12px 14px;
@@ -227,7 +206,7 @@
     <header>
       <div class="brand">
         <div class="site"><a href="https://ageoftanks.github.io/">Age of Tanks</a></div>
-        <h1>Age of Tanks Warriors: TD War</h1>
+        <h1>Top Top Tank</h1>
       </div>
 
       <div class="top-actions">
@@ -241,24 +220,23 @@
     </header>
 
     <main class="grid">
-      <!-- GAME PLAYER CARD -->
       <section class="card" aria-labelledby="play-title">
         <div class="player-head">
           <div>
-            <div id="play-title" class="sr-only">Play Age of Tanks Warriors: TD War</div>
+            <div id="play-title" class="sr-only">Play Top Top Tank</div>
             <strong>Play now</strong>
             <span class="hint">Tip: Use fullscreen for best experience.</span>
           </div>
           <div class="hint">
-            1v1 Strategy • Evolve through Ages
+            Press <span class="kbd">Esc</span> in-game to pause
           </div>
         </div>
 
         <div class="frame-wrap" id="frameWrap">
           <iframe
             id="gameFrame"
-            src="https://play.wgplayground.com/ifr/a0db20512bc4c784901c6a0010a23521"
-            title="Age of Tanks Warriors: TD War game iframe"
+            src="https://play.wgplayground.com/ifr/b0d8e481f6a3763f1ef110e6a8d0c626"
+            title="Top Top Tank game iframe"
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
             allow="fullscreen; gamepad; autoplay"
@@ -271,65 +249,51 @@
         </div>
       </section>
 
-      <!-- CONTENT CARD -->
       <section class="card">
         <div class="content">
-          <!-- LEFT: MAIN DESCRIPTION -->
           <div>
             <h2>Description</h2>
             <p>
-              <strong>Age of Tanks Warriors: TD War</strong> is a real-time 1v1 strategy battle where you deploy units,
-              upgrade your base, and evolve from the Stone Age to modern warfare. Build momentum, unlock stronger troops,
-              and break through your opponent’s defenses before they overwhelm yours.
+              <strong>Top Top Tank</strong> is a tank battle with pumping and upgrading the tank and super weapons.
             </p>
 
-            <h2>How to Play</h2>
+            <h2>Instructions</h2>
             <p class="muted">
-              Deploy units, manage resources, and time your evolution upgrades. Your soldiers move automatically—your job
-              is to choose the right unit at the right moment and keep your base progressing.
+              The goal of the game is to improve and upgrade your tank, survive on the battlefield,
+              eliminate the enemy's tank army.
             </p>
 
             <ul>
-              <li><strong>Deploy:</strong> Click the unit / troop icons to send forces onto the battlefield.</li>
-              <li><strong>Upgrade:</strong> Improve your base to unlock new ages and stronger units.</li>
-              <li><strong>Win condition:</strong> Destroy the enemy base (shelter) before they destroy yours.</li>
-              <li><strong>Timing matters:</strong> Evolve too early and you may lack pressure; too late and you fall behind.</li>
-            </ul>
-
-            <h2>Progress Through the Ages</h2>
-            <p>
-              Start with primitive units and simple defenses. As you evolve, your army becomes deadlier—new eras bring new
-              weapons, better troops, and heavier firepower. Master the upgrade pace to take control of the match.
-            </p>
-
-            <h2>Why you’ll like it</h2>
-            <ul>
-              <li>Fast matches with clear 1v1 momentum swings</li>
-              <li>Evolution system keeps the gameplay fresh</li>
-              <li>Simple controls, but plenty of strategy depth</li>
-              <li>Playable instantly in your browser</li>
+              <li>
+                <strong>Keyboard:</strong>
+                <ul>
+                  <li><span class="kbd">W</span> <span class="kbd">A</span> <span class="kbd">S</span> <span class="kbd">D</span> / <span class="kbd">↑</span> <span class="kbd">←</span> <span class="kbd">↓</span> <span class="kbd">→</span> — forward/backward movement / right-left rotation</li>
+                  <li><span class="kbd">Esc</span> — pause</li>
+                </ul>
+              </li>
+              <li>
+                <strong>Mouse:</strong>
+                <ul>
+                  <li>Movement — aiming at the target / overview</li>
+                  <li><strong>Right button</strong> — shot of the main weapon</li>
+                  <li><strong>Left button</strong> — additional weapon shot</li>
+                </ul>
+              </li>
             </ul>
           </div>
 
-          <!-- RIGHT: QUICK INFO -->
           <aside>
-            <h2>Quick info</h2>
-            <div class="pill">🎮 Genre: Strategy / TD</div>
-            <div class="pill">⚔️ Mode: 1v1 Battle</div>
-            <div class="pill">🧬 Feature: Age Evolution</div>
-            <div class="pill">🌐 Platform: Browser</div>
-
-            <h3 style="margin-top:14px;">Tips</h3>
+            <h2>Quick tips</h2>
             <ul>
-              <li>Keep steady pressure so the enemy can’t save up safely.</li>
-              <li>Upgrade when you can immediately capitalize with stronger units.</li>
-              <li>Mix unit waves: one to tank, one to deal damage.</li>
+              <li>Upgrade early to survive longer waves.</li>
+              <li>Use main weapon for consistent damage; use additional weapon for bursts.</li>
+              <li>Rotate smartly—positioning matters as much as firepower.</li>
             </ul>
 
-            <h3 style="margin-top:14px;">Share</h3>
+            <h2 style="margin-top:14px;">Share</h2>
             <p class="muted" style="margin-bottom:0;">
               Copy link:
-              <span class="kbd">ageoftanks.github.io</span>
+              <span class="kbd">ageoftanks.github.io/game/top-top-tank.html</span>
             </p>
           </aside>
         </div>
@@ -338,7 +302,7 @@
 
     <footer>
       <div>© <span id="year"></span> Age of Tanks</div>
-      <div class="muted">Game page • Fullscreen supported</div>
+      <div class="muted">File: <span class="kbd">game/top-top-tank.html</span></div>
     </footer>
   </div>
 
@@ -360,6 +324,7 @@
       try {
         await requestFullscreen(frameWrap);
       } catch (e) {
+        // Some browsers may block fullscreen without a direct user gesture; this click is one.
         console.warn(e);
       }
     });
